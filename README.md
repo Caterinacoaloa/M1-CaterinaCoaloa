@@ -1,36 +1,36 @@
 # ColorFly Studio
 
-Hola, este es **ColorFly Studio**, un proyecto que hice para practicar desarrollo web. La aplicación genera paletas de colores al azar y permite probar distintas combinaciones.
+**ColorFly Studio** es una aplicación web para generar y explorar paletas de colores aleatorias. Permite elegir la cantidad de colores, consultar sus códigos en distintos formatos y conservar los colores elegidos al crear nuevas paletas.
 
-## Probalo online
+## Aplicación online
 
-[Abrir ColorFly Studio](https://caterinacoaloa.github.io/M1-CaterinaCoaloa/)
+[Visitar ColorFly Studio](https://caterinacoaloa.github.io/M1-CaterinaCoaloa/)
 
-## ¿Qué se puede hacer?
+## Características
 
-- Elegir si la paleta tendrá 6, 8 o 9 colores.
-- Ver los códigos de cada color en formato HEX o RGBA.
-- Bloquear los colores que quiero mantener mientras genero otros.
-- Usar los controles también con el teclado.
+- Generar paletas de 6, 8 o 9 colores.
+- Ver los códigos en formato HEX o RGBA.
+- Bloquear colores para conservarlos al generar otra paleta.
+- Usar los controles con el teclado y ver el foco de navegación.
 
-## ¿Cómo se usa?
+## Uso
 
-1. Selecciono la cantidad de colores.
-2. Elijo si quiero ver los códigos en HEX o RGBA.
-3. Hago clic en **Generar paleta**.
-4. Si quiero conservar un color, hago clic en **Bloquear** antes de generar una paleta nueva.
+1. Seleccioná la cantidad de colores.
+2. Elegí el formato HEX o RGBA.
+3. Seleccioná **Generar paleta**.
+4. Para conservar un color, seleccioná **Bloquear** en su tarjeta antes de generar otra paleta.
 
-También puedo abrir el archivo `index.html` en el navegador para probar el proyecto en mi computadora.
+Para ejecutar el proyecto localmente, abrí `index.html` en un navegador.
 
-## Tecnologías que usé
+## Tecnologías
 
-- **HTML** para organizar el contenido de la página.
-- **CSS** para darle estilo a la aplicación.
-- **JavaScript** para generar los colores y hacer funcionar los controles.
+- **HTML**: estructura de la página.
+- **CSS**: estilos de la aplicación.
+- **JavaScript**: generación de colores y funcionamiento de los controles.
 
-## Archivos principales
+## Estructura del proyecto
 
-- `index.html`: contiene la estructura de la página.
-- `css/style.css`: contiene los estilos.
-- `js/script.js`: contiene la lógica para generar y bloquear colores.
-- `assets/`: contiene las imágenes del proyecto.
+- `index.html`: estructura de la aplicación.
+- `css/style.css`: estilos visuales.
+- `js/script.js`: lógica para generar y bloquear colores.
+- `assets/`: imágenes utilizadas en el proyecto.
