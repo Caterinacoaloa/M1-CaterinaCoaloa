@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFly Studio</title>
+    <link rel="stylesheet" href="css/style.css"> 
+
+</head>
+<body>
+    <div class="card"> 
+<img src="assets/fondo.2.avif" alt="" class="otro" width="50%">  
+    </div>
+
+<header>
+ <div class="titulo"> 
+<h1>ColorFly Studio</h1>
+     <h3>Generador de paletas de colores</h3>
+   
+</div>
+</header>
+
+   <main id="tamano-de-la-paleta">
+    <section class="controls" aria-label="Configuración del generador">
+
+
+   <div class="paletas">
+     <div class="field">
+       <label for="colores">Cantidad de colores</label>
+       <select id="colores" name="colores">
+         <option value="6">6 colores</option>
+         <option value="8">8 colores</option>
+         <option value="9">9 colores</option>
+       </select>
+     </div>
+     <div class="field">
+       <label for="formato">Formato del código</label>
+       <select id="formato" name="formato">
+         <option value="hex">HEX</option>
+         <option value="rgba">RGBA</option>
+       </select>
+     </div>
+     <button id="boton-generar" class="boton-generar" type="button" data-tooltip="Genera una paleta aleatoria con la cantidad y el formato seleccionados">Generar paleta</button>
+   </div>
+
+</section>
+
+    <section id="paleta" aria-label="Paleta generada" aria-live="polite"></section>
+
+    </main>
+    <footer id="acerca">
+<p>2026</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
