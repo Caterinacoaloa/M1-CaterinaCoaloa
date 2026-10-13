@@ -9,16 +9,17 @@
 ## Características
 
 - Generar paletas de 6, 8 o 9 colores.
-- Ver los códigos en formato HEX o RGBA.
+- Ver los códigos en formato HEX o HSL.
 - Bloquear colores para conservarlos al generar otra paleta.
 - Usar los controles con el teclado y ver el foco de navegación.
+- Ver una paleta inicial al abrir la página.
 
 ## Uso
 
 1. Seleccioná la cantidad de colores.
-2. Elegí el formato HEX o RGBA.
-3. Seleccioná **Generar paleta**.
-4. Para conservar un color, seleccioná **Bloquear** en su tarjeta antes de generar otra paleta.
+2. Elegí el formato HEX o HSL.
+3. Seleccioná **Generar paleta** para crear una nueva.
+4. Para conservar un color, seleccioná **Bloquear** en su tarjeta antes de generar otra paleta. El color bloqueado se mantendrá y los demás cambiarán.
 
 Para ejecutar el proyecto localmente, abrí `index.html` en un navegador.
 

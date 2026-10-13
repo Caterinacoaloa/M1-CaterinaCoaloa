@@ -5,7 +5,7 @@ const Selectorformato = document.getElementById("formato");
 const coloresActuales = [];
 
 
-generarBoton.addEventListener("click", () => {
+function generarPaleta() {
   const cantidadColores = Number(selectorColores.value);
   const formatoElegido = Selectorformato.value;
   paleta.replaceChildren();
@@ -26,7 +26,7 @@ generarBoton.addEventListener("click", () => {
     muestra.style.backgroundColor = color.hsl;
 
     codigo.classList.add("codigo-color");
-    codigo.textContent = formatoElegido === "rgba" ? color.rgba : color.hex;
+    codigo.textContent = formatoElegido === "hsl" ? color.hsl : color.hex;
 
     botonBloqueo.classList.add("boton-bloqueo");
     botonBloqueo.type = "button";
@@ -51,7 +51,10 @@ generarBoton.addEventListener("click", () => {
   }
 
   coloresActuales.length = cantidadColores;
-});
+}
+
+generarBoton.addEventListener("click", generarPaleta);
+generarPaleta();
 
 
 function getRandomNumber(min, max) {

@@ -70,19 +70,6 @@ h2{
 p{
     text-align: center;
 }
-.card {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center; 
-  gap: 20px;
-  
-
-}
-.otro{
-  grid-column: 1;
-  width: 50px;
-  height: auto;
-}
 .titulo{
   grid-column: 2;
   display: flex;
@@ -117,7 +104,24 @@ p{
   border-radius: 8px;
   background-color: rgb(203, 244, 248);
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
+.tarjeta-color:hover,
+.tarjeta-color:focus-within {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 25%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tarjeta-color {
+    transition: none;
+  }
+
+  .tarjeta-color:hover,
+  .tarjeta-color:focus-within {
+    transform: none;
+  }
 }
 
 .muestra-color {
